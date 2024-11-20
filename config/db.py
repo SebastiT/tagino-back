@@ -1,7 +1,9 @@
 from sqlalchemy import create_engine, MetaData
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-DATABASE_URL = "mysql+pymysql://root:Abcdario18989$$@localhost:3306/taginoproject"
+contraseña = ""
+
+DATABASE_URL = "mysql+pymysql://root:{contraseña}@localhost:3306/taginoproject"
 
 # DATABASE_URL = "mysql+pymysql://root:lvcqnfZsAWKHIsqOnyxKOtjFxozsxPal@autorack.proxy.rlwy.net:20955/railway"
 
